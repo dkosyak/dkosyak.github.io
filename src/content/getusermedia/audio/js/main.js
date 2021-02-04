@@ -12,7 +12,7 @@
 const audio = document.querySelector('audio');
 
 const constraints = window.constraints = {
-  audio: true,
+  audio: { echoCancellation: false },
   video: false
 };
 
